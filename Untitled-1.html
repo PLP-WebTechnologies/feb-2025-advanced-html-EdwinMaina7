@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenya Tech Hub Registration</title>
+    
+</head>
+<body>
+    <header>
+        <h1>Kenya Tech Hub Registration</h1>
+    </header>
+
+    <main>
+        <!-- Ordered List with Kenyan Tech Innovations -->
+        <section>
+            <h2>Top Kenyan Tech Innovations</h2>
+            <ol type="i">
+                <li>M-Pesa Mobile Money</li>
+                <li>iHub Nairobi Tech Incubator</li>
+                <li>Ushahidi Crowdsourcing Platform</li>
+                <li>BRCK Internet Connectivity Device</li>
+                <li>Digital Literacy Program</li>
+            </ol>
+        </section>
+
+        <!-- Kenyan Wildlife Image -->
+        <section>
+            <h2>Kenya's Wild Beauty</h2>
+            <img src="https://images.pexels.com/photos/16045000/pexels-photo-16045000.jpeg" 
+                 alt="Impala antelope in Savannah landscape" 
+                 width="100%" 
+                 height="auto">
+        </section>
+
+        <!-- Kenyan Tech Contacts Table -->
+        <section>
+            <h2>Kenya Tech Innovators Network</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>Mobile</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Njoroge Muchiri</td>
+                        <td>iHub, Nairobi CBD, Kenya</td>
+                        <td>+254 (720) 123-456</td>
+                        <td>njoroge.muchiri@techkenya.com</td>
+                    </tr>
+                    <tr>
+                        <td>Wanjiku Kamau</td>
+                        <td>Pivotal Labs, Westlands, Nairobi</td>
+                        <td>+254 (734) 987-654</td>
+                        <td>wanjiku.kamau@pivotal.co.ke</td>
+                    </tr>
+                    <tr>
+                        <td>Samuel Ochieng</td>
+                        <td>Ushahidi HQ, Nairobi</td>
+                        <td>+254 (710) 246-8135</td>
+                        <td>samuel.ochieng@ushahidi.com</td>
+                    </tr>
+                    <tr>
+                        <td>Akinyi Odhiambo</td>
+                        <td>BRCK Innovation, Nairobi</td>
+                        <td>+254 (722) 369-2580</td>
+                        <td>akinyi.odhiambo@brck.com</td>
+                    </tr>
+                    <tr>
+                        <td>Daniel Mutua</td>
+                        <td>M-Pesa Innovation Center, Nairobi</td>
+                        <td>+254 (707) 741-9630</td>
+                        <td>daniel.mutua@safaricom.co.ke</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Registration Form -->
+        <section>
+            <h2>Tech Professional Registration</h2>
+            <form action="#" method="post">
+                <!-- Name Field -->
+                <label for="name">Full Name:</label>
+                <input type="text" 
+                       id="name" 
+                       name="name" 
+                       placeholder="Enter your full name (e.g., Njoroge Kamau)" 
+                       required 
+                       minlength="2" 
+                       maxlength="50">
+
+                <!-- Email Field -->
+                <label for="email">Email:</label>
+                <input type="email" 
+                       id="email" 
+                       name="email" 
+                       placeholder="Enter your email (e.g., name@techkenya.com)" 
+                       required 
+                       pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+
+                <!-- Password Field -->
+                <label for="password">Password:</label>
+                <input type="password" 
+                       id="password" 
+                       name="password" 
+                       placeholder="Enter your password" 
+                       required 
+                       minlength="8" 
+                       maxlength="20">
+
+                <!-- Date Field -->
+                <label for="birthdate">Date of Birth:</label>
+                <input type="date" 
+                       id="birthdate" 
+                       name="birthdate" 
+                       required>
+
+                <!-- County Dropdown -->
+                <label for="county">County:</label>
+                <select id="county" name="county" required>
+                    <option value="">Select your County</option>
+                    <option value="nairobi">Nairobi</option>
+                    <option value="mombasa">Mombasa</option>
+                    <option value="kisumu">Kisumu</option>
+                    <option value="nakuru">Nakuru</option>
+                    <option value="eldoret">Eldoret</option>
+                </select>
+
+                <!-- Radio Buttons -->
+                <fieldset>
+                    <legend>Technology Sector:</legend>
+                    <input type="radio" id="software" name="sector" value="software" required>
+                    <label for="software">Software Development</label>
+                    <input type="radio" id="mobile" name="sector" value="mobile">
+                    <label for="mobile">Mobile Technologies</label>
+                    <input type="radio" id="fintech" name="sector" value="fintech">
+                    <label for="fintech">FinTech</label>
+                </fieldset>
+
+                <!-- Checkboxes -->
+                <fieldset>
+                    <legend>Areas of Interest:</legend>
+                    <input type="checkbox" id="mpesa" name="interests" value="mpesa">
+                    <label for="mpesa">M-Pesa Innovations</label>
+                    <input type="checkbox" id="blockchain" name="interests" value="blockchain">
+                    <label for="blockchain">Blockchain</label>
+                    <input type="checkbox" id="ai" name="interests" value="ai">
+                    <label for="ai">Artificial Intelligence</label>
+                </fieldset>
+
+                <!-- Submit Button -->
+                <button type="submit">Register for Tech Hub</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Kenya Tech Hub | Empowering Kenyan Innovation</p>
+    </footer>
+</body>
+</html>
